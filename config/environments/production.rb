@@ -75,6 +75,6 @@ Farah::Application.configure do
   config.fog_directory  = 'farah-images'
 end
 
-config.assets.initialize_on_precompile = false
+
 
 end
