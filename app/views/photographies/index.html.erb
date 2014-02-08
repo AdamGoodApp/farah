@@ -1,0 +1,7 @@
+<div class="photography-container">
+  <% @photographies.each do |photography| %>
+    <div class="photography-thumb">
+      <%= link_to image_tag(photography.photo_image.url), photography %>
+    </div>
+  <% end %>
+</div>

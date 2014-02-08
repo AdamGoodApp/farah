@@ -1,0 +1,7 @@
+<div class="illustrations-container">
+  <% @illustrations.each do |illustration| %>
+      <div class="illustration-thumb">
+        <%= link_to image_tag(illustration.illustration_image.url), illustration %>
+      </div>
+  <% end %>
+</div>

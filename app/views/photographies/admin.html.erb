@@ -1,0 +1,23 @@
+<h1>Listing photographies</h1>
+
+<table>
+  <tr>
+    <th>Photo image</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @photographies.each do |photography| %>
+  <tr>
+    <td class="photography-thumb"><%= image_tag photography.photo_image.url %></td>
+    <td><%= link_to 'Show', photography %></td>
+    <td><%= link_to 'Edit', edit_photography_path(photography) %></td>
+    <td><%= link_to 'Destroy', photography, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Photography', new_photography_path %>

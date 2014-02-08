@@ -1,0 +1,23 @@
+<h1>Listing illustrations</h1>
+
+<table>
+  <tr>
+    <th>Illustration image</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @illustrations.each do |illustration| %>
+  <tr>
+    <td class="illustration-thumb"><%= image_tag illustration.illustration_image.url %></td>
+    <td><%= link_to 'Show', illustration %></td>
+    <td><%= link_to 'Edit', edit_illustration_path(illustration) %></td>
+    <td><%= link_to 'Destroy', illustration, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Illustration', new_illustration_path %>
