@@ -13,3 +13,11 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
+
+$(function() {
+      $('#slides').slidesjs({
+        width: 940,
+        height: 528,
+        // navigation: { active: false, slide: "slide" }
+      });
+});

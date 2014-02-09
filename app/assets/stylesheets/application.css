@@ -32,11 +32,13 @@ li {
 	width: 100%;
 	margin: auto;
 	overflow: hidden;
+	padding-top: 5%;
 }
 
 nav {
 	text-align: center;
 	padding-left: 20%;
+	margin-bottom: 3%;
 }
 
 nav, ul {
@@ -45,11 +47,20 @@ nav, ul {
 
 .home-container img {
 	margin-left: 32%;
+	margin-bottom: 2%;
 }
 
 li {
 	float: left;
 	margin-right: 50px;
+}
+
+a:link {text-decoration:none;}
+
+a:visited {color: black;}
+a:hover
+{
+background-color: none !important;
 }
 
 
@@ -80,13 +91,58 @@ li {
 	margin: 5% 9.6%;
 }
 
+#slides {
+      display: none
+    }
 
+    /* Center the slideshow */
+    .container {
+      margin: 0 auto
+    }
 
+    /* Show active item in the pagination */
+    .slidesjs-pagination .active {
+      color:red;
+    }
 
+    /* Media quires for a responsive layout */
 
+    /* For tablets & smart phones */
+    @media (max-width: 767px) {
+      body {
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      .container {
+        width: auto
+      }
+    }
 
+    /* For smartphones */
+    @media (max-width: 480px) {
+      .container {
+        width: auto
+      }
+    }
 
+    /* For smaller displays like laptops */
+    @media (min-width: 768px) and (max-width: 979px) {
+      .container {
+        width: 724px
+      }
+    }
 
+    /* For larger displays */
+    @media (min-width: 1200px) {
+      .container {
+        width: 1170px
+      }
+    }
 
+.slidesjs-pagination-item {
+	display: none;
+}
 
-
+.slidesjs-previous.slidesjs-navigation {
+	margin-right: 10px;
+}
