@@ -20,6 +20,7 @@ li {
 
 .facebook, .twitter {
 	margin-right: 3px;
+	list-style: none;
 }
 
 .social-icon {
@@ -30,19 +31,24 @@ li {
 .home-container {
 	width: 100%;
 	margin: auto;
+	overflow: hidden;
 }
 
 nav {
 	text-align: center;
+	padding-left: 20%;
+}
+
+nav, ul {
+	overflow: hidden;
 }
 
 .home-container img {
 	margin-left: 32%;
-	width: 35%;
 }
 
 li {
-	display: inline-block;
+	float: left;
 	margin-right: 50px;
 }
 
