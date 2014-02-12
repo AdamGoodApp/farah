@@ -16,6 +16,8 @@ li {
 	font-family: "Arial";
 	font-size: 18px;
 	color: black;
+  display: inline-block;
+  margin-right: 50px;
 }
 
 .facebook, .twitter {
@@ -32,13 +34,13 @@ li {
 	width: 100%;
 	margin: auto;
 	overflow: hidden;
-	padding-top: 5%;
+	padding-top: 2%;
 }
 
 nav {
 	text-align: center;
-	padding-left: 5%;
-	margin-bottom: 3%;
+	padding-left: 20%;
+  display: inline-block;
 }
 
 nav, ul {
@@ -47,13 +49,7 @@ nav, ul {
 
 .home-container img {
 	margin-left: 4%;
-	margin-bottom: 2%;
   float: left;
-}
-
-li {
-	float: left;
-	margin-right: 50px;
 }
 
 a:link {text-decoration:none;}
