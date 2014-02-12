@@ -50,6 +50,7 @@ nav, ul {
 .home-container img {
 	margin-left: 4%;
   float: left;
+  margin-bottom: 4%; 
 }
 
 a:link {text-decoration:none;}
@@ -132,7 +133,7 @@ background-color: none !important;
     /* For larger displays */
     @media (min-width: 1200px) {
       .container {
-        width: 1170px
+        width: 960px
       }
     }
 
@@ -142,4 +143,8 @@ background-color: none !important;
 
 .slidesjs-previous.slidesjs-navigation {
 	margin-right: 10px;
+}
+
+.slidesjs-container {
+  height: 495px !important;
 }
