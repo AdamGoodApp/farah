@@ -1,8 +1,7 @@
 Farah::Application.routes.draw do
-  resources :illustrations
-
-
-  resources :photographies
+  
+  resources :illustrations, :path => 'illustration'
+  resources :photographies, :path => 'photography'
 
   resources :home
 
