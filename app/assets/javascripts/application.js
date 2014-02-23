@@ -18,6 +18,9 @@ $(function() {
       $('#slides').slidesjs({
         width: 940,
         height: 528,
-        // navigation: { active: false, slide: "slide" }
+        navigation: { active: false, slide: "fade" },
+        play: { auto: true }
       });
+
+
 });
