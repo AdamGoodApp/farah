@@ -33,7 +33,7 @@
 
 body {
   font-family: "Arial Narrow";
-  font-size: 17px;
+  font-size: 16px;
   color: black;
 }
 
@@ -62,9 +62,9 @@ li {
 
 nav {
 	text-align: center;
-	padding-left: 22.7%;
+	padding-left: 31.2%;
   display: inline-block;
-  padding-top: 23px;
+  padding-top: 4px;
 }
 
 nav, ul {
@@ -75,7 +75,8 @@ nav, ul {
 .home-container img {
 	margin-left: 12%;
   float: left;
-  margin-bottom: 4%; 
+  margin-bottom: 4%;
+  width: 8%; 
 }
 
 a:link {text-decoration:none;}
