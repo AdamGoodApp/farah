@@ -5,8 +5,8 @@ Farah::Application.routes.draw do
 
   resources :home
 
-  get 'photography/admin', to: 'photographies#admin', as: 'admin'
-  get 'illustration/admin', to: 'illustrations#admin', as: 'admin'
+  get 'photographies/admin', to: 'photographies#admin', as: 'admin'
+  get 'illustrations/admin', to: 'illustrations#admin', as: 'admin'
 
 
   # The priority is based upon order of creation:
